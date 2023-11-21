@@ -7,7 +7,8 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 	- the staging area marks the content that will be added to the repository on the next commit
-	- so you can decide which files will be tracked by version control and which will not
+	- so you can decide which files will be included in the next commit and which not
+	- this gives you the freedom to commit files one by one and have a distinct commit message for each file
 
 How can you use the staging area to make sure you have one commit per logical
 change?
