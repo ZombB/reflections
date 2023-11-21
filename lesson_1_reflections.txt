@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was said that the bug was introduced in the old version which means it was not part of the old version. For that reason it must be part of the diff.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You could avoid making mistakes by learning from the past. You would have an overview about what you allready tried in the past and so could avoid these mistakes in the future.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	- cons: - you have to do it and maybe forget it
+		- different developers my choose different frequencies
+		- for big commits it may be difficult to track the changes
+	-pro:	- you can make a commit for each logical change, seperating logically different changes in commits
+		- better to understand if you do it right
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Because these systems are designed for different use cases. Google Docs is mainly for writing single documents not for maintaining source code of complex systems 
+	but git is designed for exactly doing that: Version control across multiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	"git log" can be used to view the history of commits to the git repository
+	"git diff" can be used to view the changes between two commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because of version control I can easily go back to a prior version using "git checkout #commit" and so revert the changes and to return to a working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Receive newest software from Github
